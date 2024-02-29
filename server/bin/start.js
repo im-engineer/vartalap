@@ -7,8 +7,7 @@ const app = require("../app").default;
 const { Server } = require("socket.io");
 var http = require("http");
 
-var configdata = config.get(process.env.Node_env);
-var apiPort = configdata.api_port || 2345;
+var apiPort = config.get(process.env.Node_env).api_port || 2345;
 var server = http.createServer(app);
 const io = new Server(server);
 
