@@ -12,8 +12,8 @@ Vartalap is chat application build with the power of MERN Stack. You can find th
 Both should be installed and make sure mongodb is running.
 
 ```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
+git clone https://github.com/im-engineer/vartalap.git
+cd vartalap
 ```
 Now rename env files from .env.example to .env
 ```shell
